@@ -1,0 +1,398 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ceMesh.cpp">
+      <Filter>Systems\MeshSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="mat44.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="vec3.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="vec2.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="mathlib.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="vec4.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DTexture.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraFree.cpp">
+      <Filter>Systems\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Systems\Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Skybox.cpp">
+      <Filter>Objects\Skybox</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DShader.cpp">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="VertexShader.cpp">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PixelShader.cpp">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="GeometryShader.cpp">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="PCH.cpp" />
+    <ClCompile Include="D3DTypes.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="TextRenderer.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewFrustum.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingBox.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="ShaderHotReload.cpp">
+      <Filter>Graphics\D3DShaders\HotReload</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessorBase.cpp">
+      <Filter>Graphics\PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugViewManager.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="HullShader.cpp">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="DomainShader.cpp">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="ComputeShader.cpp">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugFrustum.cpp">
+      <Filter>Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="quat.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="HBAOPlus.cpp">
+      <Filter>Graphics\HBAO+</Filter>
+    </ClCompile>
+    <ClCompile Include="DXUTApp.cpp">
+      <Filter>Core\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="BaseApp.cpp">
+      <Filter>Core\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DFullscreenPass.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Core\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DStates.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DProfiler.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="AntTweakBar.cpp">
+      <Filter>Systems</Filter>
+    </ClCompile>
+    <ClCompile Include="D3DShaders.cpp">
+      <Filter>Graphics</Filter>
+    </ClCompile>
+    <ClCompile Include="BoundingFrustum.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderDocPluginLoader.cpp">
+      <Filter>Graphics\RenderDoc</Filter>
+    </ClCompile>
+    <ClCompile Include="RasterizerStateD3D12.cpp">
+      <Filter>RenderingPrototype\DX12</Filter>
+    </ClCompile>
+    <ClCompile Include="Geo.cpp">
+      <Filter>Core\Math</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{ab3b7094-7848-40f2-972a-3f4497d9d5f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems">
+      <UniqueIdentifier>{caaa2a60-9d99-4329-98c1-c62aade8e768}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Camera">
+      <UniqueIdentifier>{316dc083-1f33-4908-9519-018253407225}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{02d1b14f-da0b-472b-ac57-3cf482e2d36b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects\Skybox">
+      <UniqueIdentifier>{38399d74-772c-482e-9dd5-1b3b3c2d24fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics">
+      <UniqueIdentifier>{075d0fb7-a25c-4693-a8f3-336b815b8ef6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\D3DShaders">
+      <UniqueIdentifier>{5e3bd14a-1a6f-4da8-80b5-3972e1378498}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\D3DShaders\HotReload">
+      <UniqueIdentifier>{8792b5d7-125e-4ec8-9952-5ad1c5946c52}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\PostProcessing">
+      <UniqueIdentifier>{8cf972bf-03b5-48cf-8a88-c57ab80a72a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\PostProcess">
+      <UniqueIdentifier>{59a692a5-4b0b-4648-9166-72262574b2eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\Input">
+      <UniqueIdentifier>{f1936e88-8d56-4881-b8f8-6648b6c0ad25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\HBAO+">
+      <UniqueIdentifier>{36a69929-64b7-4524-bea4-fdde5be71cd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core">
+      <UniqueIdentifier>{7f4e6dc6-8e3a-465d-b496-a9e72384c7fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Utility">
+      <UniqueIdentifier>{12cb097d-4667-4d8a-bce4-6197315b017d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Math">
+      <UniqueIdentifier>{d29c84b3-155f-471c-9162-82414523366d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Core\Framework">
+      <UniqueIdentifier>{bfea77e9-1e84-4318-8b68-e62f43799e76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\MeshSystem">
+      <UniqueIdentifier>{44f92d4d-1dcc-41a7-a1c4-8cc0944650d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Systems\MeshSystem\Renderer">
+      <UniqueIdentifier>{fd7315cc-80a4-440c-a89f-7dd4da66a259}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Sky Models">
+      <UniqueIdentifier>{e6bfc86b-9c7a-49e3-add9-d17343ed4180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\ShadersCooker">
+      <UniqueIdentifier>{d33d4398-db08-47a3-8c6a-7513d3b9ccfa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graphics\RenderDoc">
+      <UniqueIdentifier>{c1ef1792-0eb3-4764-8ef7-18fa984fa1a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderingPrototype">
+      <UniqueIdentifier>{189a0ddc-46a4-4f6e-a089-2261b383be98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderingPrototype\DX12">
+      <UniqueIdentifier>{eb6ca209-cefd-4ed1-a59a-f53cde4480cc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="RenderingPrototype\DX11">
+      <UniqueIdentifier>{97e9ed8d-3d83-431a-9411-e5bc3861e6c3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ceMesh.h">
+      <Filter>Systems\MeshSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="ceMeshDefinitions.h">
+      <Filter>Systems\MeshSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="vec3.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec4.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="mat44.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="mathlib.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="vec2.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DTexture.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="ICamera.h">
+      <Filter>Systems\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraFree.h">
+      <Filter>Systems\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="Input.h">
+      <Filter>Systems\Input</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DConstantBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="Skybox.h">
+      <Filter>Objects\Skybox</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DShader.h">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClInclude>
+    <ClInclude Include="PixelShader.h">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClInclude>
+    <ClInclude Include="VertexShader.h">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClInclude>
+    <ClInclude Include="GeometryShader.h">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DShaders.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="PCH.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="D3DTypes.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="TextRenderer.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewFrustum.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingBox.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="ShaderHotReload.h">
+      <Filter>Graphics\D3DShaders\HotReload</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessorBase.h">
+      <Filter>Graphics\PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugViewManager.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="HullShader.h">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DomainShader.h">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClInclude>
+    <ClInclude Include="ComputeShader.h">
+      <Filter>Graphics\D3DShaders</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugFrustum.h">
+      <Filter>Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="quat.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="HBAOPlus.h">
+      <Filter>Graphics\HBAO+</Filter>
+    </ClInclude>
+    <ClInclude Include="DXUTApp.h">
+      <Filter>Core\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseApp.h">
+      <Filter>Core\Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DFullscreenPass.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="CompileTimeAssert.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="BaseTypes.h">
+      <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Core\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DStates.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="D3DProfiler.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="D3D11StructuredBuffer.h">
+      <Filter>Graphics</Filter>
+    </ClInclude>
+    <ClInclude Include="AntTweakBar.h">
+      <Filter>Systems</Filter>
+    </ClInclude>
+    <ClInclude Include="BoundingFrustum.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderDocPluginLoader.h">
+      <Filter>Graphics\RenderDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="renderdoc_app.h">
+      <Filter>Graphics\RenderDoc</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsEnums.h">
+      <Filter>RenderingPrototype</Filter>
+    </ClInclude>
+    <ClInclude Include="BlendState.h">
+      <Filter>RenderingPrototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Viewport.h">
+      <Filter>RenderingPrototype</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizerState.h">
+      <Filter>RenderingPrototype</Filter>
+    </ClInclude>
+    <ClInclude Include="Rect.h">
+      <Filter>RenderingPrototype</Filter>
+    </ClInclude>
+    <ClInclude Include="RasterizerStateD3D12.h">
+      <Filter>RenderingPrototype\DX12</Filter>
+    </ClInclude>
+    <ClInclude Include="Geo.h">
+      <Filter>Core\Math</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Common.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Skybox.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Depth.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="PostProcessCommon.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="FXAA3_11.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="CommonTextures.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="DebugView.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="PosColor.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Vignette.hlsl">
+      <Filter>Shaders\PostProcess</Filter>
+    </None>
+    <None Include="ColorCorrection.hlsl">
+      <Filter>Shaders\PostProcess</Filter>
+    </None>
+    <None Include="CIEClearSky.hlsl">
+      <Filter>Shaders\Sky Models</Filter>
+    </None>
+    <None Include="SkyboxVelocityBuffer.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>

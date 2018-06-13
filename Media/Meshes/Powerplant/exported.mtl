@@ -1,0 +1,316 @@
+newmtl ___Default____Standard__
+map_Kd wall_tex_a.dds
+map_bump default-normalmap.dds
+
+newmtl ___Default____Standard__1
+map_Kd wall_tex_a.dds
+map_bump default-normalmap.dds
+
+newmtl mav_body____Standard__
+map_Kd mav_b_body.dds
+map_bump default-normalmap.dds
+
+newmtl mav_light____Standard__
+map_Kd mav_b_lit.dds
+map_bump default-normalmap.dds
+
+newmtl mav_ring____Standard__
+map_Kd mav_a_ring.dds
+map_bump default-normalmap.dds
+
+newmtl tank_top____Standard__
+map_Kd tank_top.dds
+map_bump default-normalmap.dds
+
+newmtl tank_side____Standard__
+map_Kd tank_side.dds
+map_bump default-normalmap.dds
+
+newmtl tower_side____Standard__
+map_Kd tow_rib_ a.dds
+map_bump default-normalmap.dds
+
+newmtl tow_tex____Standard__
+map_Kd tw_tex_a.dds
+map_bump default-normalmap.dds
+
+newmtl red_girder_a____Standard__
+map_Kd red_girder_a.dds
+map_bump default-normalmap.dds
+
+newmtl rebar____Standard__
+map_Kd re_bar_a.dds
+map_bump default-normalmap.dds
+
+newmtl sm_grate____Standard__
+map_Kd grt_sm_a.dds
+map_bump default-normalmap.dds
+
+newmtl hz_a____Standard__
+map_Kd hz_a.dds
+map_bump default-normalmap.dds
+
+newmtl panel____Standard__
+map_Kd grt_sm_b.dds
+map_bump default-normalmap.dds
+
+newmtl sm_cement_panel____Standard__
+map_Kd tw_tex_a.dds
+map_bump default-normalmap.dds
+
+newmtl ring_a____Standard__
+map_Kd ring_a.dds
+map_bump default-normalmap.dds
+
+newmtl pipe_a____Standard__
+map_Kd pipe_a.dds
+map_bump default-normalmap.dds
+
+newmtl pipe_c____Standard__
+map_Kd pipe_e.dds
+map_bump default-normalmap.dds
+
+newmtl pipe_b____Standard__
+map_Kd pipe_b.dds
+map_bump default-normalmap.dds
+
+newmtl pipe_d____Standard__
+map_Kd pipe_d.dds
+map_bump default-normalmap.dds
+
+newmtl ring_a____Standard___0
+map_Kd ring_a.dds
+map_bump default-normalmap.dds
+
+newmtl plan_d____Standard__
+map_Kd crn_pan_d.dds
+map_bump default-normalmap.dds
+
+newmtl plan_f____Standard__
+map_Kd crn_pan_f.dds
+map_bump default-normalmap.dds
+
+newmtl plan_g____Standard__
+map_Kd crn_pan_g.dds
+map_bump default-normalmap.dds
+
+newmtl plan_e____Standard__
+map_Kd crn_pan_e.dds
+map_bump default-normalmap.dds
+
+newmtl crn_pan_a____Standard__
+map_Kd crn_pan_i.dds
+map_bump default-normalmap.dds
+
+newmtl pan_b____Standard__
+map_Kd crn_pan_c.dds
+map_bump default-normalmap.dds
+
+newmtl grating____Standard__
+map_Kd grt_sm_a.dds
+map_bump default-normalmap.dds
+
+newmtl sm_pan_a____Standard__
+map_Kd sm_pan_a.dds
+map_bump default-normalmap.dds
+
+newmtl gravel_c____Standard__
+map_Kd gravel_c.dds
+map_bump default-normalmap.dds
+
+newmtl test_ground_a____Standard__
+map_Kd test_ground_b.dds
+map_bump default-normalmap.dds
+
+newmtl pad_round_a____Standard__
+map_Kd pad_big_b.dds
+map_bump default-normalmap.dds
+
+newmtl gravel____Standard__
+map_Kd gravel_a.dds
+map_bump default-normalmap.dds
+
+newmtl concrete_pad____Standard__
+map_Kd pad_pan_a.dds
+map_bump default-normalmap.dds
+
+newmtl hill_mound_a____Standard__
+map_Kd hill_mound_b.dds
+map_bump default-normalmap.dds
+
+newmtl dirt_turnaround_a____Standard__
+map_Kd road_loop_a.dds
+map_bump default-normalmap.dds
+
+newmtl trench_surround____Standard__
+map_Kd trench_surround.dds
+map_bump default-normalmap.dds
+
+newmtl trench____Standard__
+map_Kd trench_b.dds
+map_bump default-normalmap.dds
+
+newmtl road_end____Standard__
+map_Kd road_end.dds
+map_bump default-normalmap.dds
+
+newmtl road_end_b____Standard__
+map_Kd road_end_b.dds
+map_bump default-normalmap.dds
+
+newmtl road_end_a____Standard__
+map_Kd road_end_a.dds
+map_bump default-normalmap.dds
+
+newmtl road_straight____Standard__
+map_Kd road_st_a.dds
+map_bump default-normalmap.dds
+
+newmtl concrete_edge____Standard__
+map_Kd con_edge.dds
+map_bump default-normalmap.dds
+
+newmtl trench_end____Standard__
+map_Kd trench_end.dds
+map_bump default-normalmap.dds
+
+newmtl truss____Standard__
+map_Kd truss_a.dds
+map_bump default-normalmap.dds
+
+newmtl fan_shaft____Standard__
+map_Kd fan_housing_b.dds
+map_bump default-normalmap.dds
+
+newmtl fan_blade_map
+map_Kd fan_blde.dds
+map_bump default-normalmap.dds
+
+newmtl Material__55____Standard__
+map_Kd fan_hub.dds
+map_bump default-normalmap.dds
+
+newmtl truss_end____Standard__
+map_Kd truss_end.dds
+map_bump default-normalmap.dds
+
+newmtl tow_tex____Standard___0
+map_Kd tw_tex_a.dds
+map_bump default-normalmap.dds
+
+newmtl tower_side____Standard___0
+map_Kd tow_rib_ a.dds
+map_bump default-normalmap.dds
+
+newmtl tower_cap____Standard__
+map_Kd tank_top.dds
+map_bump default-normalmap.dds
+
+newmtl container_gry____Standard__
+map_Kd container_gry_num.dds
+map_bump default-normalmap.dds
+
+newmtl container_orn____Standard__
+map_Kd container_orn_num.dds
+map_bump default-normalmap.dds
+
+newmtl container_grn____Standard__
+map_Kd container_grn_num.dds
+map_bump default-normalmap.dds
+
+newmtl command_tower____Standard__
+map_Kd command_a.dds
+map_bump default-normalmap.dds
+
+newmtl rebar_b____Standard__
+map_Kd re_bar_a.dds
+map_bump default-normalmap.dds
+
+newmtl floor_top____Standard__
+map_Kd ele_floor.dds
+map_bump default-normalmap.dds
+
+newmtl elevator____Standard__
+map_Kd yellow_girder_a.dds
+map_bump default-normalmap.dds
+
+newmtl bottom_ele____Standard__
+map_Kd ele_bot.dds
+map_bump default-normalmap.dds
+
+newmtl grabbers____Standard__
+map_Kd ele_support.dds
+map_bump default-normalmap.dds
+
+newmtl light____Standard__
+map_Kd crane_light.dds
+map_bump default-normalmap.dds
+
+newmtl rails____Standard__
+map_Kd rail.dds
+map_bump default-normalmap.dds
+
+newmtl container_hab____Standard__
+map_Kd container_hab_num.dds
+map_bump default-normalmap.dds
+
+newmtl phong1
+map_Kd crn_pan_a.dds
+map_bump default-normalmap.dds
+
+newmtl crn_pan_a____Standard___0
+map_Kd crn_pan_i.dds
+map_bump default-normalmap.dds
+
+newmtl walkways____Standard__
+map_Kd walkway_a.dds
+map_bump default-normalmap.dds
+
+newmtl orig_strut_cage____Standard__1
+map_Kd yellow_girder_a.dds
+map_bump default-normalmap.dds
+
+newmtl wall_nolite____Standard__2
+map_Kd wall_tex_b.dds
+map_bump default-normalmap.dds
+
+newmtl ele_track____Standard__2
+map_Kd ele_track_a.dds
+map_bump default-normalmap.dds
+
+newmtl stripe____Standard__2
+map_Kd tow_rib_c.dds
+map_bump default-normalmap.dds
+
+newmtl crane_clamp____Standard__
+map_Kd crn_clamp_a.dds
+map_bump default-normalmap.dds
+
+newmtl crane_wheel____Standard__
+map_Kd crane_wheel.dds
+map_bump default-normalmap.dds
+
+newmtl orig_wheel_house____Standard__
+map_Kd wheel_house.dds
+map_bump default-normalmap.dds
+
+newmtl crn_pan_a____Standard__1
+map_Kd crn_pan_i.dds
+map_bump default-normalmap.dds
+
+newmtl pan_b____Standard__1
+map_Kd crn_pan_c.dds
+map_bump default-normalmap.dds
+
+newmtl orig_basket_map____Standard__
+map_Kd basket_map.dds
+map_bump default-normalmap.dds
+
+newmtl crane_light____Standard__
+map_Kd crane_light.dds
+map_bump default-normalmap.dds
+
+newmtl crane_light_b____Standard__
+map_Kd crane_light.dds
+map_bump default-normalmap.dds
+

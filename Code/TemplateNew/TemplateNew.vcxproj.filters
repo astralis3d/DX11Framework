@@ -1,0 +1,177 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Shaders">
+      <UniqueIdentifier>{df79757d-8cdb-4fbb-b89e-a62e0e1686f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{9acef6a3-610b-4335-ba89-225cd32552cb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Objects">
+      <UniqueIdentifier>{3e98b4be-046b-4e7b-bd33-0fed04ad0b1d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{c67d71c6-fe5b-47d4-8b06-2d46d8c235b5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Win32">
+      <UniqueIdentifier>{873f1d07-94ff-4486-ae7d-9c6db11464b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Startup Files">
+      <UniqueIdentifier>{56962f82-8186-4bed-a841-08f46a9f24fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering">
+      <UniqueIdentifier>{fbc7abb9-0c3d-4518-82c5-fd0bc3902620}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\Render Stages">
+      <UniqueIdentifier>{a0070751-b48b-4cb5-ac4f-815ed247eef2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\ToneMapping">
+      <UniqueIdentifier>{ec1e8fc3-6e00-4c04-918a-ef6959ea30ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Rendering\GraphicsPipeline">
+      <UniqueIdentifier>{1837bf39-0d9f-4c6e-973e-584984ec8493}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\ToneMapping\TW3AvgLuminance">
+      <UniqueIdentifier>{e8d15cf2-9d42-43b7-8f8a-10f9a9ba2999}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\Postprocess">
+      <UniqueIdentifier>{5239e5f8-ccb7-4ed0-a06a-6414f58a1a24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Shaders\LensFlares">
+      <UniqueIdentifier>{6d54b43f-3b78-4da4-a769-0c3407fc8d2e}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene.h">
+      <Filter>Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MyApp.h" />
+    <ClInclude Include="SceneGBuffer.h">
+      <Filter>Rendering</Filter>
+    </ClInclude>
+    <ClInclude Include="PCH.h" />
+    <ClInclude Include="Bloom.h">
+      <Filter>Rendering\GraphicsPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="Sharpen.h">
+      <Filter>Rendering\GraphicsPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="AverageLuminance.h">
+      <Filter>Rendering\GraphicsPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="LensFlares.h">
+      <Filter>Rendering\GraphicsPipeline</Filter>
+    </ClInclude>
+    <ClInclude Include="PostProcessFXAA.h">
+      <Filter>Rendering\GraphicsPipeline</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Mesh.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="FullscreenPass.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="GBuffer.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="DeferredShading.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="ToneMapping.hlsl">
+      <Filter>Shaders\ToneMapping</Filter>
+    </None>
+    <None Include="Luminance.hlsl">
+      <Filter>Shaders\ToneMapping</Filter>
+    </None>
+    <None Include="AdaptedLuminance.hlsl">
+      <Filter>Shaders\ToneMapping</Filter>
+    </None>
+    <None Include="PostProcessFinalStage.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="DeferredShadingCommon.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="DeferredShadingCS.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+    <None Include="Phase1.hlsl">
+      <Filter>Shaders\ToneMapping\TW3AvgLuminance</Filter>
+    </None>
+    <None Include="Phase2.hlsl">
+      <Filter>Shaders\ToneMapping\TW3AvgLuminance</Filter>
+    </None>
+    <None Include="Sharpen.hlsl">
+      <Filter>Shaders\Postprocess</Filter>
+    </None>
+    <None Include="FXAA.hlsl">
+      <Filter>Shaders\Postprocess</Filter>
+    </None>
+    <None Include="MotionBlur.hlsl">
+      <Filter>Shaders\Postprocess</Filter>
+    </None>
+    <None Include="Bloom.hlsl">
+      <Filter>Shaders\Postprocess</Filter>
+    </None>
+    <None Include="ChromaticAberration.hlsl">
+      <Filter>Shaders\Postprocess</Filter>
+    </None>
+    <None Include="LensFlares.hlsl">
+      <Filter>Shaders\LensFlares</Filter>
+    </None>
+    <None Include="Vignette_TW3.hlsl">
+      <Filter>Shaders\Postprocess</Filter>
+    </None>
+    <None Include="LensFlaresBlur.hlsl">
+      <Filter>Shaders\LensFlares</Filter>
+    </None>
+    <None Include="Drunk.hlsl">
+      <Filter>Shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Win32Stuff.cpp">
+      <Filter>Framework\Win32</Filter>
+    </ClCompile>
+    <ClCompile Include="MyApp.cpp" />
+    <ClCompile Include="main.cpp">
+      <Filter>Framework\Startup Files</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11RenderStage_UI.cpp">
+      <Filter>Rendering\Render Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11RenderStage_FXAA.cpp">
+      <Filter>Rendering\Render Stages</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneGBuffer.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="PCH.cpp" />
+    <ClCompile Include="Bloom.cpp">
+      <Filter>Rendering\GraphicsPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="Sharpen.cpp">
+      <Filter>Rendering\GraphicsPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessing.cpp">
+      <Filter>Rendering</Filter>
+    </ClCompile>
+    <ClCompile Include="D3D11Render.cpp" />
+    <ClCompile Include="D3D11ResDevice.cpp" />
+    <ClCompile Include="D3D11ResSwapchain.cpp" />
+    <ClCompile Include="AverageLuminance.cpp">
+      <Filter>Rendering\GraphicsPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="LensFlares.cpp">
+      <Filter>Rendering\GraphicsPipeline</Filter>
+    </ClCompile>
+    <ClCompile Include="PostProcessFXAA.cpp">
+      <Filter>Rendering\GraphicsPipeline</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
